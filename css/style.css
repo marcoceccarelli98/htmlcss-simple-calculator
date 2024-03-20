@@ -34,21 +34,33 @@ body {
     align-items: center;
 }
 
+.text-white {
+    color: white;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: #77A8B0;
+}
+
 /* CALCULATOR BASE */
 .calculator {
     border-radius: 20px;
     height: 500px;
     width: 320px;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background: rgb(201, 199, 199);
+    background: linear-gradient(90deg, rgba(201, 199, 199, 1) 0%, rgba(232, 229, 229, 1) 44%);
 }
 
 /* CALCULATOR LAYOUT */
 /* NAME */
 .name-label {
-    border-radius: 20px;
     height: 19%;
     text-align: center;
-    background-color: lightgrey;
 }
 
 .name {
@@ -76,7 +88,7 @@ body {
 .btn-label {
     border-radius: 20px;
     height: 65%;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 .container-btn {
@@ -105,6 +117,8 @@ button {
     font-family: Eurostile;
     font-size: 30px;
     border-radius: 8px;
+    border: none;
+    box-shadow: -2px 2px gray;
 }
 
 .numbers {
@@ -115,10 +129,15 @@ button {
 .symbols {
     width: 80%;
     height: 18%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 /* ZERO 0 */
 #zero {
     width: 65%;
+}
+
+/* X */
+#x {
+    font-size: 20px;
 }
