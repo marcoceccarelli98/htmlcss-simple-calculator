@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 1200px;
+}
+
+.d-flex {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* CALCULATOR BASE */
+.calculator {
+    height: 500px;
+    width: 320px;
+    background-color: blue;
+}
+
+/* CALCULATOR LAYOUT */
+.name {
+    height: 19%;
+    background-color: red;
+}
+
+.screen {
+    height: 18%;
+    background-color: black;
+}
+
+.container-btn {
+    height: 65%;
+    background-color: green;
+}
