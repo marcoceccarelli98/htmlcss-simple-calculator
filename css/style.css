@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Eurostile;
+    src: url(../font/eurostile.TTF);
+}
+
 body {
     height: 1200px;
 }
@@ -30,17 +35,54 @@ body {
 }
 
 /* CALCULATOR LAYOUT */
-.name {
+/* NAME */
+.name-label {
     height: 19%;
-    background-color: red;
+    background-color: lightgrey;
 }
 
-.screen {
+.name {
+    font-family: Eurostile;
+    font-size: 40px;
+    line-height: 95px;
+}
+
+/* SCREEN */
+.screen-label {
     height: 18%;
     background-color: black;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.screen-num {
+    line-height: 90px;
+    color: rgb(0, 255, 130);
+    font-size: 50px;
+    font-family: 'Seven Segment', sans-serif;
+}
+
+/* BUTTONS */
+.btn-label {
+    height: 65%;
+    background-color: lightgray;
 }
 
 .container-btn {
-    height: 65%;
-    background-color: green;
+    height: 90%;
+    width: 90%;
+    background-color: blueviolet;
+}
+
+.col-numpad {
+    width: 70%;
+    height: 90%;
+    /* margin: 15px 10px 15px 10px; */
+    background-color: red;
+}
+
+.col-signpad {
+    width: 20%;
+    height: 90%;
+    background-color: blue;
 }
