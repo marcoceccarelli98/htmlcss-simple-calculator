@@ -38,6 +38,7 @@ body {
 /* NAME */
 .name-label {
     height: 19%;
+    text-align: center;
     background-color: lightgrey;
 }
 
@@ -75,14 +76,25 @@ body {
 }
 
 .col-numpad {
-    width: 70%;
-    height: 90%;
-    /* margin: 15px 10px 15px 10px; */
+    width: 75%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: red;
 }
 
 .col-signpad {
-    width: 20%;
-    height: 90%;
+    width: 25%;
+    height: 100%;
     background-color: blue;
+}
+
+.numbers {
+    width: 30%;
+    height: 20%;
+}
+
+/* ZERO 0 */
+#zero {
+    width: 63%;
 }
